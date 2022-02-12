@@ -2,7 +2,7 @@ import "./intro.css"
 
 const Intro = () => {
     return (
-        <div className="i">
+        <div className="i" id="intro">
             <div className="i-left">
                 <div className="i-left-wrapper">
                     <h2 className="i-intro">Olá, meu nome é</h2>
@@ -15,13 +15,18 @@ const Intro = () => {
                     </div>
                     <p className="i-desc">
                         Sou programador desenvolvedor web frontend e estou no quarto ano de Engeharia de Computação. Aqui você vai encontrar um pouco
-                        do meu currículo e do meu portfólio. No final estão todos meus contatos, fique à vontade para me chamar :)
+                        do meu portfólio e do meu currículo. No final estão todos meus contatos, fique à vontade para me chamar :)
                     </p>
+                    {/*<p className="i-nav">
+                        <a href="#intro">INÍCIO</a> <a href="#productList">PORTFÓLIO</a> <a href="#about">SOBRE MIM</a> <a href="#contact"> CONTATO</a>
+                    </p>*/}
                 </div>
             </div>
             <div className="i-right">
                 <div className="i-bg"></div>
+                
             </div>
+            <i className="fa-solid fa-arrow-down i-arrow"></i>
         </div>
     )
 }

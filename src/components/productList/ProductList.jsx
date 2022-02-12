@@ -5,9 +5,9 @@ import {products} from "../../data"
 
 const ProductList = () => {
     return (
-        <div className="pl">
+        <div className="pl" id="productList">
             <div className="pl-texts">
-                <h1 className="pl-title">Confira meus trabalhos <i className="fa-solid fa-turn-down"></i></h1>
+                <h1 className="pl-title">Confira meus trabalhos</h1>
                 <p className="pl-desc">Todos sites foram desenvolvidos individualmente para cada cliente, com designs únicos que refletem a identidade visual de cada empresa. Além disso, todos são responsivos e modernos.</p>
             </div>
             <div className="pl-list">

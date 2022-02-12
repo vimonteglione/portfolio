@@ -1,8 +1,9 @@
 import './about.css'
+import CV from "../../img/Vinicius-Monteglione-CV.pdf"
 
 const About = () => {
     return (
-        <div className="a">
+        <div className="a" id="about">
             <div className="a-left">
                 <div className="a-card bg"></div>
                 <div className="a-card">
@@ -15,12 +16,9 @@ const About = () => {
 
                 </p>
                 <p className="a-desc">
-                    Sou programador e desenvolvedor web frontend. Atualmente 
-                    estou no 4º ano de Engenharia de Computação, procurando 
-                    uma oportunidade em que eu possa colocar todo meu 
-                    conhecimento como programador em prática, obtendo assim 
-                    experiência e evolução profissional, além de aprender 
-                    novas tecnologias.
+                    Além de desenvolvedor web, sou graduando em Engenharia de Computação na Universidade Federal de Itajubá (UNIFEI) e faço parte da Black Bee Drones, 
+                    a primeira equipe de drones autônomos da América Latina, atuando na área de software. Nela, tenho contato com diversas tecnologias, 
+                    como visão computacional e inteligência artificial. Na faculdade, estou no 4º ano - 7º semestre <a href={CV} target="_blank">(ver currículo completo)</a>.
                 </p>
                 <p className="a-desc">
                     

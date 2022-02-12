@@ -17,25 +17,28 @@
 
 .i-left-wrapper {
     padding: 50px;
-    height: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .i-intro {
     font-size: 30px;
     font-weight: 300;
+    margin: 2vh 0vh;
 }
 
 .i-name {
     font-size: 60px;
     white-space: nowrap;
+    margin: 2vh 0vh;
 }
 
 .i-title {
     height: 60px;
     overflow: hidden;
+    margin: 2vh 0vh;
 }
 
 .i-title-wrapper {
@@ -45,6 +48,7 @@
 
 .i-desc {
     line-height: 1.6;
+    margin: 2vh 0vh;
 }
 
 @keyframes move {
@@ -72,8 +76,39 @@
     right: 0;
 }
 
+.i-arrow {
+    color: #84b3df;
+    font-size: 40px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    text-align: center;
+}
+
 .i-contact {
     position: absolute;
+}
+
+.i-nav {
+    text-align: center;
+    margin-top: 8vh;
+    background-color: #84b3df;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.i-nav a {
+    margin: 0px 20px;
+    background-color: #84b3df;
+    color: white;
+}
+
+.i-nav a:hover {
+    transition: .5s;
+    color: rgb(228, 228, 228);
 }
 
 @media screen and (max-width:480px) {
@@ -105,6 +140,14 @@
 
     .i-title-item {
         justify-content: center;
+    }
+
+    .i-nav {
+        display: none;
+    }
+
+    .i-arrow {
+        display: none;
     }
     
 }

@@ -16,6 +16,16 @@
     z-index: 2;
 }
 
+/*.p:hover .p-browser {
+    background-color: rgb(210, 210, 210);
+    transition: .5s;
+}
+
+.p:hover {
+    border: 2px solid rgb(210, 210, 210);
+    transition: .5s;
+}*/
+
 .p-circle {
     width: 8px;
     height: 8px;

@@ -16,6 +16,7 @@
 
 .a-right {
     flex: 1;
+    margin-right: 40px;
 }
 
 .a-card {
@@ -52,6 +53,10 @@
     margin: 10px 0px;
 }
 
+.a-desc a{
+    font-weight: 500;
+}
+
 @media screen and (max-width: 480px) {
     .a {
         flex-direction: column;
@@ -69,6 +74,7 @@
 
     .a-right {
         padding-bottom: 0px;
+        margin-right: 0px;
     }
 
     .a-card {
