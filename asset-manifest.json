@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5af3e072.css",
+    "main.css": "/portfolio/static/css/main.101acb27.css",
     "main.js": "/portfolio/static/js/main.4c8efa15.js",
     "static/media/cn-sc.png": "/portfolio/static/media/cn-sc.bea45a3b08d2de2554e5.png",
     "static/media/of-sc.png": "/portfolio/static/media/of-sc.f37c9cde4ce8ab0f956a.png",
     "static/media/mb-sc-2.png": "/portfolio/static/media/mb-sc-2.26724a9d7fffa2160372.png",
     "static/media/Vinicius-Monteglione-CV.pdf": "/portfolio/static/media/Vinicius-Monteglione-CV.c1e430f192fed25d25bd.pdf",
     "index.html": "/portfolio/index.html",
-    "main.5af3e072.css.map": "/portfolio/static/css/main.5af3e072.css.map",
+    "main.101acb27.css.map": "/portfolio/static/css/main.101acb27.css.map",
     "main.4c8efa15.js.map": "/portfolio/static/js/main.4c8efa15.js.map"
   },
   "entrypoints": [
-    "static/css/main.5af3e072.css",
+    "static/css/main.101acb27.css",
     "static/js/main.4c8efa15.js"
   ]
 }
