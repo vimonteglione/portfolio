@@ -1,9 +1,9 @@
 .i {
     display: flex;
-    height: 90vh;
+    height: 100vh;
     background: linear-gradient(-45deg, white, #3985cc, #84b3df, #fff);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 13s ease infinite;
     position: relative;
 }
 
@@ -66,7 +66,7 @@
 .i-desc {
     line-height: 1.6;
     margin: 2vh 0vh;
-    width: 70%;
+    width: 100%;
 }
 
 @keyframes move {
