@@ -44,6 +44,34 @@
     transform: translateY(-80%);
 }
 
+/*Manages text and effect whenever project is on build*/
+
+.on-build:hover a {
+    transition: 1s;
+    opacity: .3;
+}
+
+.p p {
+    display: none;
+}
+
+p.on-build {
+    opacity: 0;
+    display: block;
+    position: sticky;
+    top: 50%;
+    left: 50%;
+    height: 0px;
+    z-index: 1000;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.p:hover p.on-build {
+    transition: 1s;
+    opacity: .7;
+}
+
 @media screen and (max-width: 480px) {
     .p {
         width: 80%;
