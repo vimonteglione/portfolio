@@ -14,7 +14,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-desc">
-                        Sou programador desenvolvedor web frontend e estou no quarto ano de Engeharia de Computação. Aqui você vai encontrar um pouco
+                        Sou programador web frontend e estou no quarto ano de Engeharia de Computação. Aqui você vai encontrar um pouco
                         do meu portfólio e do meu currículo. No final estão todos meus contatos, fique à vontade para me chamar :)
                     </p>
                     {/*<p className="i-nav">

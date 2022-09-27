@@ -7,13 +7,13 @@ export const products = [
     {
         id: 1,
         img: Mbwebsite,
-        link: "https://mbmegahair.com.br/",
+        link: "https://vimonteglione.github.io/MB-website/",
         state: ""
     },
     {
         id: 2,
         img: Ofwebsite,
-        link: "https://studioonfleek.com.br/",
+        link: "https://vimonteglione.github.io/on-fleek-website/",
         state: "on-build"
     },
     {

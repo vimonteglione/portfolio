@@ -17,7 +17,7 @@ const About = () => {
                 <p className="a-desc">
                     Além de desenvolvedor web, sou graduando em Engenharia de Computação na Universidade Federal de Itajubá (UNIFEI) e faço parte da Black Bee Drones, 
                     a primeira equipe de drones autônomos da América Latina, atuando na área de software. Nela, tenho contato com diversas tecnologias, 
-                    como visão computacional e inteligência artificial. Na faculdade, estou no 4º ano - 7º semestre <a href={CV} target="_blank">(ver currículo completo)</a>.
+                    como visão computacional e inteligência artificial. Na faculdade, estou no 4º ano - 8º semestre <a href={CV} target="_blank">(ver currículo completo)</a>.
                 </p>
                 <p className="a-desc">
                     
