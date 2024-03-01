@@ -1,0 +1,28 @@
+.mobile-contact {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mobile-contact-title {
+    text-align: center;
+    width: 100%;
+}
+
+.mobile-contact-info {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.mobile-contact-info-item {
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:1270px) {
+    .mobile-contact {
+        display: none;
+    }
+}

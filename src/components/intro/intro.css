@@ -29,10 +29,13 @@
 .i-right {
     flex: 1;
     position: relative; /*For the clip path background*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .i-left-wrapper {
-    padding: 50px;
+    padding: 4rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -91,6 +94,7 @@
     color: white;
     display: flex;
     align-items: center;
+    z-index: -1;
 }
 
 .i-bg {
@@ -103,6 +107,31 @@
     right: 0;
 }
 
+.i-contact {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 140px;
+    z-index: 3000;
+}
+
+.i-contact-title {
+    font-size: 50px;
+     width: 100%;
+}
+
+.i-contact-info {
+    margin: 60px 10px;
+}
+
+.i-contact-info-item {
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+
 .i-arrow {
     color: white;
     font-size: 40px;
@@ -113,10 +142,6 @@
     right: 0;
     bottom: 30px;
     text-align: center;
-}
-
-.i-contact {
-    position: absolute;
 }
 
 .i-nav {
@@ -138,10 +163,10 @@
     color: rgb(228, 228, 228);
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:1270px) {
     .i {
         flex-direction: column;
-        height: 90vh;
+        height: 80vh;
     }
 
     .i-right {
@@ -168,6 +193,8 @@
 
     .i-title-item {
         justify-content: center;
+        white-space: nowrap;
+        font-size: 22px;
     }
 
     .i-nav {
@@ -206,5 +233,11 @@
     .custom-shape-divider-bottom-1645673969 svg {
         width: calc(156% + 1.3px);
         height: 70px;
+    }
+}
+
+@media screen and (max-width:1270px) {
+    .i-right {
+        display: none;
     }
 }

@@ -1,22 +1,19 @@
 .a {
-    height: 80vh;
-    margin: 20px 0px;
+    margin: 40px 0px;
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 
 .a-left {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 100%;
+    flex: 4;
+    margin: 40px;
+    margin-left: 80px;
 }
 
 .a-right {
-    flex: 1;
-    margin-right: 40px;
+    flex: 3;
+    margin: 40px;
+    margin-right: 80px;
 }
 
 .a-card {
@@ -58,24 +55,44 @@
     font-weight: 500;
 }
 
-@media screen and (max-width: 480px) {
+.a-desc-button {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.a-desc-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.a-habilidades {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.a-habilidades i {
+    margin: 20px;
+}
+
+@media screen and (max-width: 900px) {
     .a {
         flex-direction: column;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 20px;
         height: auto;
-        margin-bottom: 50px;
     }
 
     .a-left {
-        width: 100%;
         order: 2;
         align-items: start;
+        padding: 0 40px;
+        margin: 0;
     }
 
     .a-right {
         padding-bottom: 0px;
         margin-right: 0px;
+        margin-left: 0px;
     }
 
     .a-card {
@@ -90,4 +107,15 @@
     .a-right {
         padding: 20px;
     }
+
+    .a-buttons-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: end;
+    }
+    
+    .a-buttons-row .a-desc-button {
+        flex-basis: auto;
+    }    
 } 
